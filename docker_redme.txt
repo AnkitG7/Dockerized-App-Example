@@ -1,0 +1,68 @@
+Docker has a wide range of commands that you can use to manage containers, images, networks, volumes, and more. 
+Here's a list of some commonly used Docker commands:
+
+### Management Commands:
+
+1. **docker pull \<image>**: Pull an image or a repository from a registry.
+
+2. **docker build \<path>**: Build an image from a Dockerfile.
+
+3. **docker push \<image>**: Push an image or a repository to a registry.
+
+4. **docker images**: List all images on the local machine.
+
+5. **docker ps**: List all running containers.
+
+6. **docker ps -a**: List all containers (both running and stopped).
+
+7. **docker run \<options> \<image>**: Run a command in a new container.
+
+8. **docker exec \<options> \<container> \<command>**: Run a command in a running container.
+
+9. **docker stop \<container>**: Stop a running container.
+
+10. **docker start \<container>**: Start a stopped container.
+
+11. **docker restart \<container>**: Restart a running or stopped container.
+
+12. **docker rm \<container>**: Remove a stopped container.
+
+13. **docker rmi \<image>**: Remove an image.
+
+### Informational Commands:
+
+14. **docker info**: Display system-wide information.
+
+15. **docker inspect \<object>**: Display detailed information about an object (container, image, network, etc.).
+
+16. **docker logs \<container>**: Fetch the logs of a container.
+
+### Network Commands:
+
+17. **docker network ls**: List all networks.
+
+18. **docker network create \<name>**: Create a new network.
+
+### Volume Commands:
+
+19. **docker volume ls**: List all volumes.
+
+20. **docker volume create \<name>**: Create a new volume.
+
+### Docker Compose Commands:
+
+21. **docker-compose up**: Create and start containers defined in the `docker-compose.yml` file.
+
+22. **docker-compose down**: Stop and remove containers, networks, and volumes defined in the `docker-compose.yml` file.
+
+### System Commands:
+
+23. **docker system df**: Show docker disk usage.
+
+24. **docker system prune**: Remove all stopped containers, dangling images, and unused networks and volumes.
+
+25. **docker version**: Display the Docker version information.
+
+26. **docker help**: Get help on a specific command or general Docker help.
+
+These are just a subset of the available Docker commands. You can always refer to the official Docker documentation for more detailed information and options: [Docker Command-line Reference](https://docs.docker.com/engine/reference/commandline/).

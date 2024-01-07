@@ -1,0 +1,11 @@
+docker build -t spbootimg .
+
+docker run --name spbootcontainer -it -p 9595:9595 -d spbootimg
+
+docker logs spboot
+
+docker stop ddididid
+
+docker ps         
+
+docker ps -a  

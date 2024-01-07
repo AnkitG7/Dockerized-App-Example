@@ -1,0 +1,11 @@
+docker build -t <imagname> .
+
+docker run --name <containername> -it -p 9595:9595 -d <imagname>
+
+docker logs <containername>
+
+docker stop <idofconatiner>
+
+docker ps         
+
+docker ps -a 
